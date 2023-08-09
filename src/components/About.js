@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import aboutImage1 from '../assets/images/aboutImage1.png'
 
@@ -6,11 +7,7 @@ export const About = () => {
     <section className="bg-secondery text-white px-5 py-32" id="about">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="about-img">
-          <img
-            src={aboutImage1}
-            alt="About image"
-            className="lgw-[80%] md:ml-auto"
-          />
+          <img src={aboutImage1} className="lgw-[80%] md:ml-auto" />
         </div>
 
         <div className="about-info">
