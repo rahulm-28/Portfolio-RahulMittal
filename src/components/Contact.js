@@ -33,9 +33,6 @@ export const Contact = () => {
             height="100%"
             title="map"
             className="absolute inset-0"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
             style={{ filter: 'opacity(0.7)' }}
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.5185112458244!2d72.54939737586945!3d23.18776701014216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c297e10d3cfbf%3A0x5c70dc0b7cc66dd3!2sKasturinagar!5e0!3m2!1sen!2sin!4v1691565386640!5m2!1sen!2sin"
           />
@@ -53,7 +50,10 @@ export const Contact = () => {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <a
+                className="text-indigo-400 leading-relaxed"
+                href="https://mail.google.com"
+              >
                 rahulmittal@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
